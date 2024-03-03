@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nós fazemos acontecer! Nós Somos New Games!">
+    <meta name="description" content="Em breve teremos um novo jogo que aproveitara melhor os recursos do upland.">
+    <title>New Games</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html,
+        body {
+            background-color: #ffffff;
+            margin: 0;
+            position: fixed;
+            height: 100%;
+            width: 100%;
+        }
+
+        main {
+            height: 100%;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #212121;
+            margin: auto;
+        }
+
+        img {
+            width: 90%;
+            margin-bottom: 30px;
+        }
+
+        p, small, h2, a {
+            text-align: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        a {
+            color: #212121;
+            text-decoration: underline;
+        }
+
+        small.slogan {
+            color: #212121;
+        }
+        small.slogan + h2 {
+            color: rgb(96,30,81);
+        }
+
+        footer {
+            bottom: 0;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+        }
+
+        li {
+            list-style: none;
+            margin-right: 20px;
+        }
+
+        li a {
+            transition: .22s;
+            text-decoration: none;
+        }
+
+        li a:hover, li a:hover span::before{
+            color: rgb(99, 42, 85) !important;
+        }
+
+        li a span::before {
+            transition: .22s;
+            color: #212121 !important;
+            font-size: 20pt;
+        }
+
+        @media (min-width: 768px) {
+            img {
+                width: 400px;
+                margin-bottom: 30px;
+            }
+            .md\:fixed-right {
+                position: fixed;
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                right: 0;
+            }
+
+            main {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <img src="./logo.png" alt="Kutena logo" />
+        <small class="slogan">Nós fazemos acontecer! Nós somos New Game!</small>
+        <h2> Estamos trabalhando em nosso website 😎</h2>
+        <p>
+           Em breve teremos um novo jogo que aproveitara melhor os recursos do upland.
+            <br />
+            <br />
+            Converse connosco, envie um e-mail para <a href="mailto:new@kutena.ao">mcdidizin@gmail.com</a>
+        </p>
+
+        <footer class="md:fixed-right">
+            <ul>
+                  <!-- li>
+                    <a href="https://github.com/kutenabank/">
+                        <span class="icon-instagran"></span>
+                    </a>
+               </li -->
+                <li>
+                    <a href="https://www.facebook.com/wrramerson/">
+                        <span class="icon-facebook"></span>
+                    </a>
+                </li>
+                <!-- li>
+                    <a href="https://www.f6s.com/kutenabank">Acompanhe nossos passos no F6S</a>
+                </li -->
+            </ul>
+        </footer>
+
+    </main>
+</body>
+</html>
